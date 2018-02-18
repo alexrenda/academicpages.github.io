@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Alex Renda"
   avatar           : "headshot.jpg"
-  bio              : "CS Senior @ Cornell. Interested in the intersection of Programming Languages and Machine Learning"
+  bio              : "CS Senior @ Cornell. Interested in the intersection of Programming Languages and Machine Learning."
   location         : "Cornell University"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4BCuJ2AAAAAJ"
-  email            :
+  email            : "me@alexrenda.com"
   uri              :
   bitbucket        :
   codepen          :
