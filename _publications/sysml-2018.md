@@ -2,7 +2,7 @@
 title: "Programming Language Support for Natural Language Interaction"
 collection: conference
 permalink: /publication/sysml-2018
-excerpt: 'Foo bar baz'
+excerpt:
 date: 2018-02-16
 venue: SysML
 paperurl: 'http://www.sysml.cc/doc/56.pdf'
