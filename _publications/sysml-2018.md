@@ -1,6 +1,6 @@
 ---
 title: "Programming Language Support for Natural Language Interaction"
-collection: conference
+collection: publications
 permalink: /publication/sysml-2018
 date: 2018-02-16
 venue: SysML
