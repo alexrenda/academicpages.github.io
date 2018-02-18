@@ -1,10 +1,10 @@
 ---
 title: "Programming Language Support for Natural Language Interaction"
 collection: conference
-permalink: /publication/2018-02-16-programming-language-support-for-natural-language-interaction
+permalink: /publication/sysml-2018
 excerpt: 'Foo bar baz'
 date: 2018-02-16
-venue: SysML 2018
+venue: SysML
 paperurl: 'http://www.sysml.cc/doc/56.pdf'
 citation: 'Alex Renda, Harrison Goldstein, Sarah Bird, Chris Quirk, and Adrian Sampson.'
 ---
