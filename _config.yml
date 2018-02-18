@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Alex Renda"
 title_separator          : "-"
 name                     : &name "Alex Renda"
-description              : &description "CS Senior at Cornell"
+description              : &description "CS Senior @ Cornell"
 url                      : https://alexrenda.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexrenda/alexrenda.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Alex Renda"
   avatar           : "headshot.jpg"
-  bio              : "CS Senior at Cornell, interested in the intersection of Programming Languages and Machine Learning"
+  bio              : "CS Senior @ Cornell. Interested in the intersection of Programming Languages and Machine Learning"
   location         : "Cornell University"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4BCuJ2AAAAAJ"
