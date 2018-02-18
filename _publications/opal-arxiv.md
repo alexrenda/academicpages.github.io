@@ -3,7 +3,6 @@ title: "Abstractions for AI-Based User Interfaces and Systems"
 collection: publications
 permalink: /publication/opal-arxiv
 date: 2017-09-14
-venue: In Preparation
 paperurl: https://arxiv.org/pdf/1709.04991.pdf'
 citation: 'Alex Renda, Harrison Goldstein, Sarah Bird, Chris Quirk, and Adrian Sampson.'
 ---
