@@ -55,7 +55,12 @@
       {% endif %}
 
       {% if post.venue %}
-      <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.
+      <i>{{ post.venue }}</i>,
+      {% if post.offerings %}
+        {{ post.offerings | join: ", " }}.
+      {% else %}
+        {{ post.date | default: "1900-01-01" | date: "%Y" }}.
+      {% endif %}
       {% else %}
       <i>In Preparation</i>.
       {% endif %}
