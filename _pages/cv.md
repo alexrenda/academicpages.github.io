@@ -43,16 +43,18 @@ Industry experience
 
 Publications
 ======
+  {% assign publications = (site.publications | sort: 'date') | reverse %}
   <ul>
-  {% for post in site.publications %}
+  {% for post in publications %}
     {% include archive-single-cv.html %}
   {% endfor %}
   </ul>
 
 Teaching
 ======
+  {% assign teaching = (site.teaching | sort: 'date') | reverse %}
   <ul>
-  {% for post in site.teaching %}
+  {% for post in teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}
   </ul>
