@@ -43,12 +43,19 @@ Industry experience
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>
+  {% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+  </ul>
 
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>
+  weep
+  {% for post in site.teaching %}
+    woop
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+  wap
+  </ul>
