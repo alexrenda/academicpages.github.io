@@ -36,7 +36,31 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+
+    {% assign replaced_name = site.name | prepend: "<b>" | append: "</b>" %}
+    {% capture citation_raw %}
+      {% if post.citation %}
+        {{ post.citation }}
+      {% elsif post.authors %}
+        {{ post.authors | join: ", " | replace: site.name, replaced_name | strip }}
+      {% endif %}
+    {% endcapture %}
+
+    {% assign citation = citation_raw | strip %}
+
+    {% if citation != "" or post.venue %}
+    <p class="archive__item-excerpt" itemprop="description">
+      {% if citation != "" %}
+        {{ citation }}.
+      {% endif %}
+
+      {% if post.venue %}
+      <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.
+      {% else %}
+      <i>In Preparation</i>.
+      {% endif %}
+    </p>
+    {% endif %}
     </li>
  </article>
 </div>
