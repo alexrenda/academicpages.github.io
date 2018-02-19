@@ -52,10 +52,7 @@ Publications
 Teaching
 ======
   <ul>
-  weep
   {% for post in site.teaching %}
-    woop
     {% include archive-single-cv.html %}
   {% endfor %}
-  wap
   </ul>
