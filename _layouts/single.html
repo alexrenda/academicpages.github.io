@@ -37,9 +37,9 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}.</p>
         {% elsif page.date %}
-          <p class="page__date"><strong>In Preparation</strong></p>
+          <p class="page__date"><i>In Preparation</i>.</p>
         {% endif %}
 
         {% assign replaced_name = site.name | prepend: "<b>" | append: "</b>" %}
@@ -53,9 +53,9 @@ layout: default
 
         {% assign citation = citation_raw | strip %}
 
-        {% if citation and page.paperurl %}
+        {% if citation != "" and page.paperurl %}
           <p>{{ citation }}. <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif citation %}
+        {% elsif citation != "" %}
           <p>{{ citation }}.</p>
         {% endif %}
 
