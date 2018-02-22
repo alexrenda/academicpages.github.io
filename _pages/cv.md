@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Computer Science with a minor in Linguistics, Cornell University, 2018 (expected)
-  * Working with [Adrian Sampson](http://adriansampson.net) on [Opal](https://capra.cs.cornell.edu/research/opal/) as an undergraduate member of the [Capra](https://capra.cs.cornell.edu) group
+  * Working with **[Adrian Sampson](http://adriansampson.net)** on **[Opal](https://capra.cs.cornell.edu/research/opal/)** as an undergraduate member of the **[Capra](https://capra.cs.cornell.edu)** group
 
 Industry experience
 ======
