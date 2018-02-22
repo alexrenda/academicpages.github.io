@@ -13,7 +13,7 @@ redirect_from:
 Research
 =====
 
-I'm broadly interested in the intersection of programming languages and machine learning, to create more secure, privacy-preserving, efficient, performant, and correct software. Specifically, I want to create abstractions that can provide strong guarantees for probabalistic and approximate systems that traditionally lack them. I'm also interested in applying machine learning to challenging problems within programming systems, to provide better heuristics and create more useful and powerful systems.
+I'm broadly interested in the intersection of programming languages and machine learning, to create more secure, privacy-preserving, efficient, performant, and correct software. Specifically, I want to create abstractions that can provide strong guarantees for probabalistic and approximate systems that traditionally lack them. I'm also interested in applying machine learning to challenging problems within programming systems, especially in contexts where simple hand-written heuristics are not sufficient or perfect accuracy is not required.
 
 Projects
 =====
