@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Alex Renda"
 title_separator          : "-"
 name                     : &name "Alex Renda"
-description              : &description "CS Senior @ Cornell"
+description              : &description "Ph.D. Student @ MIT"
 url                      : https://alexrenda.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexrenda/alexrenda.github.io"
@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Alex Renda"
   avatar           : "headshot.jpg"
-  bio              : "CS Senior @ Cornell. Interested in systems combining programming languages and machine learning."
-  location         : "Cornell University"
+  bio              : "Ph.D. Student @ MIT. Interested in systems combining programming languages and machine learning."
+  location         : "MIT"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4BCuJ2AAAAAJ"
   email            : "me@alexrenda.com"
