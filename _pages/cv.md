@@ -17,7 +17,8 @@ Education
 Industry experience
 ======
 * Summer 2018: Software Engineering Intern @ **[Two Sigma](https://www.twosigma.com)**
-  * TBD!
+  * Member of the Social and Collaboration Tools team
+  * Worked on improvements for internal search, including gathering better logs, analyzing those logs to find deep patterns and trends in how people use search, delivering reports about topics users have trouble finding, and implementing both architectural and user-facing changes to improve the search experience
 
 * Summer 2017: Software Engineering Intern @ **[Two Sigma](https://www.twosigma.com)**
   * Member of the Quantitative Platform Engineering team
