@@ -39,7 +39,7 @@ layout: default
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}.</p>
         {% elsif page.date %}
-          <p class="page__date"><i>In Preparation</i>.</p>
+          <p class="page__date"><i>Draft</i>.</p>
         {% endif %}
 
         {% assign replaced_name = site.name | prepend: "<b>" | append: "</b>" %}

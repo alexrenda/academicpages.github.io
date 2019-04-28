@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D. student in EECS at MIT
-  * Working with **[Michael Carbin](https://people.csail.mit.edu/mcarbin)** as a member of the **[Programming Systems Group](TODO)**
+  * Working with **[Michael Carbin](https://people.csail.mit.edu/mcarbin)**.
 * B.S. in Computer Science with a minor in Linguistics, Cornell University, May 2018
   * Worked with **[Adrian Sampson](http://adriansampson.net)** on **[Opal](https://capra.cs.cornell.edu/research/opal/)** as an undergraduate member of the **[Capra](https://capra.cs.cornell.edu)** group
 
