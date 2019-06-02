@@ -25,7 +25,7 @@ Ithemal
 Predicting the number of processor clock cycles it takes to execute a block of assembly instructions in steady state (the throughput) is important for both compiler designers and performance engineers. Building an analytical model to do so is especially complicated in modern x86-64 Complex Instruction Set Computer (CISC) machines with sophisticated processor microarchitectures in that it is tedious, error prone, and must be performed from scratch for each processor generation. To this end, we developed Ithemal, a system which learns to predict the throughput of a set of instructions. Ithemal uses a hierarchical LSTM--based approach to predict throughput based on the opcodes and operands of instructions in a basic block. Ithemal is significantly more accurate than state-of-the-art hand-written tools currently used in compiler backends and static machine code analyzers. In particular, our model has less than half the error of state-of-the-art analytic models (LLVM's [`llvm-mca`](https://llvm.org/docs/CommandGuide/llvm-mca.html) and Intel's [`IACA`](https://software.intel.com/en-us/articles/intel-architecture-code-analyzer)).
 
 Joint work with Charith Mendis, Saman Amarasinghe, and Michael Carbin.
-[Paper Draft](https://arxiv.org/abs/1808.07412) (to appear at [ICML](https://icml.cc) 2019).
+[Paper](https://arxiv.org/abs/1808.07412) ([ICML](https://icml.cc) 2019).
 
 Opal
 ==
