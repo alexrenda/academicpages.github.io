@@ -54,9 +54,9 @@ layout: default
         {% assign citation = citation_raw | strip %}
 
         {% if citation != "" and page.paperurl %}
-          <p>{{ citation }}. <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p>{{ citation }}. <a href="{{ page.paperurl }}">Paper</a> {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}</p>
         {% elsif citation != "" %}
-          <p>{{ citation }}.</p>
+          <p>{{ citation }}. {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}</p>
         {% endif %}
 
         </header>

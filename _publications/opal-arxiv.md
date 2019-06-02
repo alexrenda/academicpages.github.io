@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/opal-arxiv
 date: 2017-09-14
 paperurl: 'https://arxiv.org/pdf/1709.04991.pdf'
+codeurl: 'https://github.com/cucapra/opal'
 authors:
  - Alex Renda
  - Harrison Goldstein
