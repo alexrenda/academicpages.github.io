@@ -65,7 +65,7 @@
     {% assign citation = citation_raw | strip %}
 
     {% if citation != "" and post.paperurl %}
-      <p>{{ citation }}. <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      <p>{{ citation }}. <a href="{{ post.paperurl }}"><u>Paper</u></a> {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}</p>
     {% elsif citation != "" %}
       <p>{{ citation }}.</p>
     {% elsif post.paperurl %}
