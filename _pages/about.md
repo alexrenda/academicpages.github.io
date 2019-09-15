@@ -28,7 +28,7 @@ Joint work with Charith Mendis, Saman Amarasinghe, and Michael Carbin.
 [Paper](https://arxiv.org/abs/1808.07412) ([ICML](https://icml.cc) 2019).
 [Code](https://github.com/psg-mit/Ithemal).
 
-Best Paper award at the [ML for Systems workshop](http://mlforsystems.org) at ISCA 2019.
+Best Paper award at the [ML for Systems workshop](http://mlforsystems.org/isca2019/schedule.html) at ISCA 2019.
 
 Opal
 ==
