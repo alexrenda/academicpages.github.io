@@ -25,7 +25,7 @@ Publications
   {% endfor %}
   </ul>
 
-Teaching
+Teaching & TAing
 ======
   {% assign teaching = (site.teaching | sort: 'date') | reverse %}
   <ul>
