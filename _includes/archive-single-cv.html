@@ -54,6 +54,10 @@
         {{ citation }}.
       {% endif %}
 
+      {% if post.type %}
+        {{ post.type }}.
+      {% endif %}
+
       {% if post.venue %}
       <i>{{ post.venue }}</i>,
       {% if post.offerings %}
@@ -64,8 +68,14 @@
       {% else %}
       <i>Draft</i>.
       {% endif %}
+
+      {% for award in post.awards %}
+      <br/>
+      {{ award }}
+      {% endfor %}
+
     </p>
     {% endif %}
     </li>
- </article>
+  </article>
 </div>
