@@ -1,7 +1,7 @@
 ---
 title: "A Benchmark Suite for Validating x86-64 Performance Models"
 collection: publications
-permalink: /publication/ithemal-measurement
+permalink: /publication/iiswc-2019
 date: 2019-11-03
 venue: IISWC
 paperurl: 'https://arxiv.org/abs/1808.07412'
@@ -16,4 +16,4 @@ authors:
  - Michael Carbin
 ---
 
-TBA
+To appear.

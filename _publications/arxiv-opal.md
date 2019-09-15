@@ -1,7 +1,7 @@
 ---
 title: "Abstractions for AI-Based User Interfaces and Systems"
 collection: publications
-permalink: /publication/opal-arxiv
+permalink: /publication/arxiv-opal
 date: 2017-09-14
 paperurl: 'https://arxiv.org/pdf/1709.04991.pdf'
 codeurl: 'https://github.com/cucapra/opal'

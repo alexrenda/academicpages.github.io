@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/sysml-2018
 date: 2018-02-16
 venue: SysML
-paperurl: 'http://www.sysml.cc/doc/56.pdf'
+paperurl: 'http://www.sysml.cc/doc/2018/56.pdf'
 authors:
  - Alex Renda
  - Harrison Goldstein
