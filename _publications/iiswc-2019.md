@@ -14,6 +14,8 @@ authors:
  - Ondřej Sýkora
  - Saman Amarasinghe
  - Michael Carbin
+bibtex: /bibtex/iiswc-2019.txt
+
 ---
 
 To appear.

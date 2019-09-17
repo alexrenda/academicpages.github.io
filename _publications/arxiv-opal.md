@@ -11,6 +11,8 @@ authors:
  - Sarah Bird
  - Chris Quirk
  - Adrian Sampson
+bibtex: /bibtex/arxiv-opal.txt
+
 ---
 
 Novel user interfaces based on artificial intelligence, such as natural-language agents, present new categories of engineering challenges. These systems need to cope with uncertainty and ambiguity, interface with machine learning algorithms, and compose information from multiple users to make decisions. We propose to treat these challenges as language-design problems. We describe three programming language abstractions for three core problems in intelligent system design. First, hypothetical worlds support nondeterministic search over spaces of alternative actions. Second, a feature type system abstracts the interaction between applications and learning algorithms. Finally, constructs for collaborative execution extend hypothetical worlds across multiple machines while controlling access to private data. We envision these features as first steps toward a complete language for implementing AI-based interfaces and applications.

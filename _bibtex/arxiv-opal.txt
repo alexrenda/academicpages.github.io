@@ -1,0 +1,14 @@
+@ARTICLE{renda_abstractions_2017,
+       author = {{Renda}, Alex and {Goldstein}, Harrison and {Bird}, Sarah and
+         {Quirk}, Chris and {Sampson}, Adrian},
+        title = "{Abstractions for AI-Based User Interfaces and Systems}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Programming Languages, Computer Science - Artificial Intelligence},
+         year = "2017",
+        month = "Sep",
+          eid = {arXiv:1709.04991},
+        pages = {arXiv:1709.04991},
+archivePrefix = {arXiv},
+       eprint = {1709.04991},
+ primaryClass = {cs.PL}
+}

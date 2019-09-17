@@ -1,0 +1,7 @@
+@inproceedings{renda_programming_2018,
+    author = {Alex Renda and Harrison Goldstein and Sarah Bird and
+              Chris Quirk and Adrian Sampson},
+    title = {Programming Language Support for Natural Language Interaction},
+    booktitle = {SysML},
+    year = {2018},
+}
